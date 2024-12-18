@@ -28,6 +28,11 @@ table 50106 Staff
             DecimalPlaces = 2;
             MinValue = 0;
         }
+
+        field(5; "Professor code"; Code[2])
+        {
+            TableRelation = Senate where("Professor Code" = field("Professor code"));
+        }
     }
 
     keys

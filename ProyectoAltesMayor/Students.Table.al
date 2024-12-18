@@ -42,6 +42,11 @@ table 50103 Students
         {
             DataClassification = ToBeClassified;
         }
+
+        field(7; "Mentor code"; Code[2])
+        {
+            TableRelation = Senate where("Professor Code" = field("Mentor code"));
+        }
     }
 
     keys

@@ -23,9 +23,9 @@ table 50101 Departments
             MinValue = 0;
         }
 
-        field(4; "Professor Code"; Code[2])
+        field(4; "Director Code"; Code[2])
         {
-            TableRelation = Senate where("Professor Code" = field("Professor Code"));
+            TableRelation = Senate where("Professor Code" = field("Director Code"));
         }
     }
 

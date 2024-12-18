@@ -30,11 +30,12 @@ table 50105 Senate
         }
         field(5; "Assistant Number"; Integer)
         {
-            DataClassification = ToBeClassified;
             MinValue = 0;
             InitValue = 0;
-
+            FieldClass = FlowField;
+            CalcFormula = count(Staff where("Professor code" = field("Professor Code"), Post = const('Ayudante')));
         }
+
         field(6; "Salary"; Decimal)
         {
             DataClassification = ToBeClassified;
