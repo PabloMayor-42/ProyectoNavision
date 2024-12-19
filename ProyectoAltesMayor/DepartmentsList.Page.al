@@ -23,6 +23,10 @@ page 50105 "Departments List"
                 {
                     ApplicationArea = all;
                 }
+                field("Director Code"; Rec."Director Code")
+                {
+                    ApplicationArea = all;
+                }
             }
         }
 

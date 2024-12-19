@@ -31,6 +31,11 @@ page 50103 "Course List"
                 {
                     ApplicationArea = all;
                 }
+
+                field("Dept. code"; Rec."Dept. code")
+                {
+                    ApplicationArea = all;
+                }
             }
         }
         area(Factboxes)

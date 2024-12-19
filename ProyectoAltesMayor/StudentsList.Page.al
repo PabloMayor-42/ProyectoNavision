@@ -41,7 +41,10 @@ page 50100 StudentsList
                 {
                     ApplicationArea = all;
                 }
-
+                field("Mentor code"; Rec."Mentor code")
+                {
+                    ApplicationArea = all;
+                }
             }
         }
         area(Factboxes)

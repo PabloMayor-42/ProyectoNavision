@@ -27,6 +27,10 @@ page 50106 "Staff List"
                 {
                     ApplicationArea = all;
                 }
+                field("Professor code"; Rec."Professor code")
+                {
+                    ApplicationArea = all;
+                }
             }
         }
     }

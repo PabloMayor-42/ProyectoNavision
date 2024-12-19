@@ -36,6 +36,10 @@ page 50101 "Classes List"
                     ApplicationArea = all;
                 }
 
+                field("Professor code"; Rec."Professor code")
+                {
+                    ApplicationArea = all;
+                }
             }
         }
     }

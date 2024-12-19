@@ -35,6 +35,10 @@ page 50102 "Senate List"
                 {
                     ApplicationArea = all;
                 }
+                field("Dept. code"; Rec."Dept. code")
+                {
+                    ApplicationArea = all;
+                }
             }
         }
         area(Factboxes)
