@@ -11,11 +11,10 @@ table 50104 Enrolment
             TableRelation = Classes where("Course code" = field("Course Code"));
         }
 
-        field(2; "section"; Text[2])
+        field(2; "Section"; Text[2])
         {
             Numeric = true;
             NotBlank = true;
-            TableRelation = Classes where(Division = field(section));
         }
         field(3; "Student Code"; Code[3])
         {
@@ -39,7 +38,7 @@ table 50104 Enrolment
 
     keys
     {
-        key(Key1; "Course Code", section, "Student Code")
+        key(Key1; "Course Code", Section, "Student Code")
         {
             Clustered = true;
         }

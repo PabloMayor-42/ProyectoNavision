@@ -8,7 +8,6 @@ table 50102 Classes
         {
             DataClassification = ToBeClassified;
             NotBlank = true;
-            CharAllowed = 'AZ';
             TableRelation = Course where("Course code" = field("Course code"));
         }
 
@@ -16,7 +15,6 @@ table 50102 Classes
         {
             Numeric = true;
             NotBlank = true;
-
         }
 
         field(3; Day; Text[10])

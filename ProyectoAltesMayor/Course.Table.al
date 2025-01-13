@@ -9,7 +9,6 @@ table 50100 Course
         {
             DataClassification = ToBeClassified;
             NotBlank = true;
-            CharAllowed = 'AZ';
         }
 
         field(2; "Course name"; Text[30])

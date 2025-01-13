@@ -32,6 +32,7 @@ table 50105 Senate
         {
             MinValue = 0;
             InitValue = 0;
+            MaxValue = 1;
             FieldClass = FlowField;
             CalcFormula = count(Staff where("Professor code" = field("Professor Code"), Post = const('Ayudante')));
         }
