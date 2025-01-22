@@ -1,4 +1,4 @@
-page 50103 "Course List"
+page 50108 "Course List Look Up"
 {
     PageType = List;
     ApplicationArea = All;
@@ -25,23 +25,6 @@ page 50103 "Course List"
                 field("Course desc."; Rec."Course desc.")
                 {
                     Caption = 'Course desc.', comment = 'ESP="Desc. Curso"';
-                    ApplicationArea = all;
-                }
-                field(Credence; Rec.Credence)
-                {
-                    Caption = 'Credence', comment = 'ESP="Créditos"';
-                    ApplicationArea = all;
-                }
-                field(Rate; Rec.Rate)
-                {
-                    Caption = 'Rate', comment = 'ESP="Tarifa"';
-                    ApplicationArea = all;
-                }
-
-                field("Dept. code"; Rec."Dept. code")
-                {
-
-                    Caption = 'Dept. code', comment = 'ESP="Código Departamento"';
                     ApplicationArea = all;
                 }
             }

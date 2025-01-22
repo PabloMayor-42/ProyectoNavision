@@ -1,10 +1,11 @@
-page 50103 "Course List"
+//tpage
+page 50110 "Students List Look Up"
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = Course;
-    Caption = 'Course List', comment = 'ESP="Lista Cursos"';
+    SourceTable = Students;
+    Caption = 'Students List', comment = 'ESP="Lista Estudiantes"';
 
     layout
     {
@@ -12,36 +13,35 @@ page 50103 "Course List"
         {
             repeater(GroupName)
             {
-                field("Course code"; Rec."Course code")
+                field("Student Code"; Rec."Student Code")
                 {
-                    Caption = 'Course code', comment = 'ESP="Código Curso"';
-                    ApplicationArea = all;
-                }
-                field("Course name"; Rec."Course name")
-                {
-                    Caption = 'Course name', comment = 'ESP="Nombre Curso"';
-                    ApplicationArea = all;
-                }
-                field("Course desc."; Rec."Course desc.")
-                {
-                    Caption = 'Course desc.', comment = 'ESP="Desc. Curso"';
-                    ApplicationArea = all;
-                }
-                field(Credence; Rec.Credence)
-                {
-                    Caption = 'Credence', comment = 'ESP="Créditos"';
-                    ApplicationArea = all;
-                }
-                field(Rate; Rec.Rate)
-                {
-                    Caption = 'Rate', comment = 'ESP="Tarifa"';
+                    Caption = 'Student Code', comment = 'ESP="Código Estudiante"';
                     ApplicationArea = all;
                 }
 
-                field("Dept. code"; Rec."Dept. code")
+                field("Name"; Rec.Name)
                 {
-
-                    Caption = 'Dept. code', comment = 'ESP="Código Departamento"';
+                    Caption = 'Name', comment = 'ESP="Nombre"';
+                    ApplicationArea = all;
+                }
+                field("Sex"; Rec.Sex)
+                {
+                    Caption = 'Sex', comment = 'ESP="Sexo"';
+                    ApplicationArea = all;
+                }
+                field("Adress"; Rec.Adress)
+                {
+                    Caption = 'Adress', comment = 'ESP="Dirección"';
+                    ApplicationArea = all;
+                }
+                field("Phone Number"; Rec."Phone number")
+                {
+                    Caption = 'Phone Number', comment = 'ESP="Teléfono"';
+                    ApplicationArea = all;
+                }
+                field("Birthday"; Rec.Birdthday)
+                {
+                    Caption = 'Birthday', comment = 'ESP="Fecha nac."';
                     ApplicationArea = all;
                 }
             }

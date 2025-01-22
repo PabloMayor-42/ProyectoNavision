@@ -1,12 +1,14 @@
 table 50100 Course
 
 {
+    LookupPageId = "Course List Look Up";
     DataClassification = ToBeClassified;
 
     fields
     {
         field(1; "Course code"; Code[3])
         {
+
             DataClassification = ToBeClassified;
             NotBlank = true;
         }
@@ -52,4 +54,11 @@ table 50100 Course
         }
     }
 
+    fieldgroups
+    {
+        fieldgroup(DropDown; "Course code", "Course name")
+        {
+
+        }
+    }
 }

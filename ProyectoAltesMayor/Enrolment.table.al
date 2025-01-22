@@ -1,6 +1,7 @@
 table 50104 Enrolment
 {
     DataClassification = ToBeClassified;
+    DrillDownPageId = "Enrolment List";
 
     fields
     {
@@ -8,7 +9,7 @@ table 50104 Enrolment
         {
             DataClassification = ToBeClassified;
             NotBlank = true;
-            TableRelation = Classes."Course code";
+            TableRelation = Course;
         }
 
         field(2; "Section"; Text[2])
@@ -19,18 +20,17 @@ table 50104 Enrolment
         }
         field(3; "Student Code"; Code[3])
         {
-            Numeric = true;
             NotBlank = true;
-            TableRelation = Students where("Student Code" = field("Student Code"));
+            TableRelation = Students;
         }
 
         field(4; "Enrolment Date"; Date)
         {
-
+            NotBlank = true;
         }
         field(5; "Enrolment hour"; Time)
         {
-
+            NotBlank = true;
         }
 
 

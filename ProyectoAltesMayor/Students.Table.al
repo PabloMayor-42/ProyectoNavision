@@ -1,6 +1,7 @@
 table 50103 Students
 {
     DataClassification = ToBeClassified;
+    LookupPageId = "Students List Look Up";
 
     fields
     {
@@ -70,5 +71,13 @@ table 50103 Students
         }
 
 
+    }
+
+    fieldgroups
+    {
+        fieldgroup(DropDown; "Student Code", Name, Sex)
+        {
+
+        }
     }
 }
