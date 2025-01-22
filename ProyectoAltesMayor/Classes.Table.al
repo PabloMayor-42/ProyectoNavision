@@ -8,7 +8,7 @@ table 50102 Classes
         {
             DataClassification = ToBeClassified;
             NotBlank = true;
-            TableRelation = Course where("Course code" = field("Course code"));
+            TableRelation = Course."Course code";
         }
 
         field(2; Division; Text[2])

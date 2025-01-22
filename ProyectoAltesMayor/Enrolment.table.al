@@ -8,13 +8,14 @@ table 50104 Enrolment
         {
             DataClassification = ToBeClassified;
             NotBlank = true;
-            TableRelation = Classes where("Course code" = field("Course Code"));
+            TableRelation = Classes."Course code";
         }
 
         field(2; "Section"; Text[2])
         {
             Numeric = true;
             NotBlank = true;
+            TableRelation = Classes.Division where("Course code" = field("Course Code"));
         }
         field(3; "Student Code"; Code[3])
         {

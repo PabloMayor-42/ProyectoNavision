@@ -313,35 +313,15 @@
           <note from="Developer" annotates="general" priority="2">ESP="Ficha matrícula"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1102485626 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>General</source>
-          <note from="Developer" annotates="general" priority="2">ESP="General"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control General - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1102485626 - Control 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source> </source>
-          <note from="Developer" annotates="general" priority="2">ESP=""</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control   - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 1102485626 - Control 676168468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Course code</source>
           <note from="Developer" annotates="general" priority="2">ESP="Código curso"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control Course code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1102485626 - Control 2937872379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Section</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Sección"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control Section - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1102485626 - Control 798040944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Student code</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Código estudiante"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control Student code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1102485626 - Control 281971220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>  </source>
-          <note from="Developer" annotates="general" priority="2">ESP=""</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control    - Property Caption</note>
+        <trans-unit id="Page 1102485626 - Control 759341266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Code.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Código curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control Course Code. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1102485626 - Control 745876904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enrolment date</source>
@@ -352,6 +332,16 @@
           <source>Enrolment hour</source>
           <note from="Developer" annotates="general" priority="2">ESP="Hora matric."</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control Enrolment hour - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1102485626 - Control 2937872379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Section</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Sección"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control Section - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1102485626 - Control 798040944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Student code</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Código estudiante"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Form - Control Student code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3329737910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enrolment List</source>

@@ -5,6 +5,7 @@ page 50104 "Enrolment List"
     UsageCategory = Lists;
     SourceTable = Enrolment;
     Caption = 'Enrolment List', comment = 'ESP="Lista Matrículas"';
+    CardPageId = "Enrolment Form";
 
     layout
     {
