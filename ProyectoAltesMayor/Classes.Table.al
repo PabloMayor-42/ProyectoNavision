@@ -2,6 +2,7 @@ table 50102 Classes
 {
     DataClassification = ToBeClassified;
     LookupPageId = "Classes List Look Up";
+    DrillDownPageId = "Classes List Look Up";
 
     fields
     {

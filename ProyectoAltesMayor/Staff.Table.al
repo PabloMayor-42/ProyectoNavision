@@ -1,6 +1,7 @@
 table 50106 Staff
 {
     DataClassification = ToBeClassified;
+    DrillDownPageId = "Staff List";
 
     fields
     {

@@ -5,6 +5,7 @@ page 50103 "Course List"
     UsageCategory = Lists;
     SourceTable = Course;
     Caption = 'Course List', comment = 'ESP="Lista Cursos"';
+    CardPageId = "Course Form";
 
     layout
     {

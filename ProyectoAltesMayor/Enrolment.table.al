@@ -1,7 +1,8 @@
-table 50104 Enrolment
+table 50107 Enrolment
 {
     DataClassification = ToBeClassified;
-    DrillDownPageId = "Enrolment List";
+    LookupPageId = "Enrolment List Look Up";
+    DrillDownPageId = "Enrolment List Look Up";
 
     fields
     {
@@ -32,8 +33,6 @@ table 50104 Enrolment
         {
             NotBlank = true;
         }
-
-
 
     }
 

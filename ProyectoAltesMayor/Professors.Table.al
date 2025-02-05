@@ -1,4 +1,4 @@
-table 50105 Senate
+table 50108 "Professors Table"
 {
     DataClassification = ToBeClassified;
 
@@ -48,12 +48,6 @@ table 50105 Senate
         {
             TableRelation = Departments where("Dept. code" = field("Dept. code"));
         }
-        field(8; "Nº classes"; Integer)
-        {
-            MinValue = 0;
-            FieldClass = FlowField;
-            CalcFormula = count(Classes where("Professor code" = field("Professor Code")));
-        }
     }
 
     keys
@@ -62,22 +56,34 @@ table 50105 Senate
         {
             Clustered = true;
         }
-
-        key(key2; Name, Adress)
-        {
-
-        }
-        key(key3; "Contribution Date")
-        {
-
-        }
-
-        key(key4; Salary)
-        {
-
-        }
-
-
     }
+
+    fieldgroups
+    {
+        // Add changes to field groups here
+    }
+
+    var
+        myInt: Integer;
+
+    trigger OnInsert()
+    begin
+
+    end;
+
+    trigger OnModify()
+    begin
+
+    end;
+
+    trigger OnDelete()
+    begin
+
+    end;
+
+    trigger OnRename()
+    begin
+
+    end;
 
 }

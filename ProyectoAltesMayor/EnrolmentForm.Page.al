@@ -75,13 +75,16 @@ page 50107 "Enrolment Form"
             group(Information)
             {
                 Caption = 'Information', comment = 'ESP="Información"';
-                action(Action1)
+                action(Course)
                 {
                     ApplicationArea = all;
                     Caption = 'Course', comment = 'ESP="Curso"';
                     Promoted = true;
                     PromotedOnly = true;
-
+                    Image = AssessFinanceCharges;
+                    RunObject = page "Course Form";
+                    RunPageLink = "Course code" = field("Course Code");
+                    RunPageMode = View;
 
                     trigger OnAction()
                     begin
@@ -90,12 +93,16 @@ page 50107 "Enrolment Form"
 
                 }
 
-                action(Action2)
+                action(Classroom)
                 {
                     ApplicationArea = all;
-                    Caption = 'Classrom', comment = 'ESP="Clase"';
+                    Caption = 'Classroom', comment = 'ESP="Clase"';
                     Promoted = true;
                     PromotedOnly = true;
+                    Image = Holiday;
+                    RunObject = page "Class Form";
+                    RunPageLink = "Course code" = field("Course Code");
+                    RunPageMode = View;
 
                     trigger OnAction()
                     begin
@@ -108,12 +115,16 @@ page 50107 "Enrolment Form"
             group(Student)
             {
                 Caption = 'Student', comment = 'ESP="Estudiante"';
-                action(Action3)
+                action(Data)
                 {
                     ApplicationArea = all;
                     Caption = 'Data', comment = 'ESP="Datos"';
                     Promoted = true;
                     PromotedOnly = true;
+                    Image = Customer;
+                    RunObject = page "Student Form";
+                    RunPageLink = "Student Code" = field("Student Code");
+                    RunPageMode = View;
 
                     trigger OnAction()
                     begin
@@ -121,12 +132,16 @@ page 50107 "Enrolment Form"
                     end;
 
                 }
-                action(Action4)
+                action(Enrolment)
                 {
                     ApplicationArea = all;
                     Caption = 'Enrolment', comment = 'ESP="Matriculas"';
                     Promoted = true;
                     PromotedOnly = true;
+                    Image = ChangeDate;
+                    RunObject = page "Enrolment List Look Up";
+                    RunPageLink = "Course Code" = field("Course Code");
+                    RunPageMode = View;
 
                     trigger OnAction()
                     begin
@@ -135,12 +150,13 @@ page 50107 "Enrolment Form"
 
                 }
 
-                action(Action5)
+                action(Mentor)
                 {
                     ApplicationArea = all;
                     Caption = 'Mentor', comment = 'ESP="Tutor"';
                     Promoted = true;
                     PromotedOnly = true;
+                    Image = CancelLine;
 
                     trigger OnAction()
                     begin
@@ -152,7 +168,6 @@ page 50107 "Enrolment Form"
 
 
         }
-
     }
 
 }

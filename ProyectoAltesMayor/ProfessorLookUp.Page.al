@@ -1,50 +1,41 @@
-page 50108 "Course List Look Up"
+page 50127 "Profesor Look Up"
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = Course;
-    Caption = 'Course List Look Up', comment = 'ESP="Lista Cursos LU"';
-
+    SourceTable = "Profesor Table";
     layout
     {
         area(Content)
         {
             repeater(GroupName)
             {
-                field("Course code"; Rec."Course code")
+                field("Profesor Code"; Rec."Profesor Code")
                 {
-                    Caption = 'Course code', comment = 'ESP="Código Curso"';
                     ApplicationArea = all;
                 }
-                field("Course name"; Rec."Course name")
+                field(Name; Rec.Name)
                 {
-                    Caption = 'Course name', comment = 'ESP="Nombre Curso"';
                     ApplicationArea = all;
                 }
-                field("Course desc."; Rec."Course desc.")
+                field(Department; Rec.Department)
                 {
-                    Caption = 'Course desc.', comment = 'ESP="Desc. Curso"';
                     ApplicationArea = all;
                 }
             }
         }
         area(Factboxes)
         {
-
         }
     }
-
     actions
     {
         area(Processing)
         {
             action(ActionName)
             {
-
                 trigger OnAction()
                 begin
-
                 end;
             }
         }

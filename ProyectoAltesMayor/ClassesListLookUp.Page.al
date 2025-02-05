@@ -4,7 +4,7 @@ page 50109 "Classes List Look Up"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = Classes;
-    Caption = 'Classes List', comment = 'ESP="Lista Clases"';
+    Caption = 'Classes List Look Up', comment = 'ESP="Lista Clases LU"';
 
     layout
     {

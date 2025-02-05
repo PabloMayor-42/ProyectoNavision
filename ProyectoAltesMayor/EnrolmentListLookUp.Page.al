@@ -1,10 +1,11 @@
-page 50108 "Course List Look Up"
+page 50111 "Enrolment List Look Up"
 {
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = Course;
-    Caption = 'Course List Look Up', comment = 'ESP="Lista Cursos LU"';
+    SourceTable = Enrolment;
+    Caption = 'Enrolment List Look Up', comment = 'ESP="Lista Matrículas LU"';
+    CardPageId = "Enrolment Form";
 
     layout
     {
@@ -12,19 +13,19 @@ page 50108 "Course List Look Up"
         {
             repeater(GroupName)
             {
-                field("Course code"; Rec."Course code")
+                field("Course Code"; Rec."Course Code")
                 {
-                    Caption = 'Course code', comment = 'ESP="Código Curso"';
+                    Caption = 'Course Code', comment = 'ESP="Código Curso"';
                     ApplicationArea = all;
                 }
-                field("Course name"; Rec."Course name")
+                field(Section; Rec.Section)
                 {
-                    Caption = 'Course name', comment = 'ESP="Nombre Curso"';
+                    Caption = 'Section', comment = 'ESP="Sección"';
                     ApplicationArea = all;
                 }
-                field("Course desc."; Rec."Course desc.")
+                field("Student Code"; Rec."Student Code")
                 {
-                    Caption = 'Course desc.', comment = 'ESP="Desc. Curso"';
+                    Caption = 'Student Code', comment = 'ESP="Código Estudiante"';
                     ApplicationArea = all;
                 }
             }

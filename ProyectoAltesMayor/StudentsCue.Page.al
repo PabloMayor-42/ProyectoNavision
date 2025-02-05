@@ -1,17 +1,16 @@
-//tpage
-page 50110 "Students List Look Up"
+page 50120 "Students Cue"
 {
-    PageType = List;
+    PageType = ListPart;
     ApplicationArea = All;
-    UsageCategory = Lists;
+    UsageCategory = Administration;
     SourceTable = Students;
-    Caption = 'Students List Look Up', comment = 'ESP="Lista Estudiantes LU"';
+    Caption = 'Students Cue', comment = 'ESP="Alumnos"';
 
     layout
     {
         area(Content)
         {
-            repeater(GroupName)
+            group(" ")
             {
                 field("Student Code"; Rec."Student Code")
                 {
@@ -44,26 +43,19 @@ page 50110 "Students List Look Up"
                     Caption = 'Birthday', comment = 'ESP="Fecha nac."';
                     ApplicationArea = all;
                 }
-            }
-        }
-        area(Factboxes)
-        {
-
-        }
-    }
-
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-
-                trigger OnAction()
-                begin
-
-                end;
+                field("Professor Code"; Rec."Student Code")
+                {
+                    Caption = 'Professor Code', comment = 'ESP="Código Profesor"';
+                    ApplicationArea = all;
+                }
+                field("Mentor code"; Rec."Mentor code")
+                {
+                    Caption = 'Mentor code', comment = 'ESP="Código Mentor"';
+                    ApplicationArea = all;
+                }
             }
         }
     }
+
+
 }
