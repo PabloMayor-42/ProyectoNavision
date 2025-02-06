@@ -829,8 +829,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Senate List - Control Salary - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 337621304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Staff List</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Lista Personal"</note>
+          <source>Staff</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Personal"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Staff List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 337621304 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -840,23 +840,23 @@
         </trans-unit>
         <trans-unit id="Page 337621304 - Control 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Cargo"</note>
+          <note from="Developer" annotates="general" priority="2">ESP="Puesto"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Staff List - Control Post - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 337621304 - Control 3903932202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Professor Code</source>
+        <trans-unit id="Page 337621304 - Control 164648714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teacher Code</source>
           <note from="Developer" annotates="general" priority="2">ESP="Código Profesor"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Staff List - Control Professor code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Staff List - Control Professor Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 337621304 - Control 3900201624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Salary</source>
-          <note from="Developer" annotates="general" priority="2">ESP="Sueldo"</note>
+          <note from="Developer" annotates="general" priority="2">ESP="Salario"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Staff List - Control Salary - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 337621304 - Control 1363609789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Staff code</source>
+        <trans-unit id="Page 337621304 - Control 1960870301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staff Code</source>
           <note from="Developer" annotates="general" priority="2">ESP="Código Personal"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Staff List - Control Staff code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Staff List - Control Staff Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1736794724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Statistics Fact Box</source>

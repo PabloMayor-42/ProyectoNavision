@@ -4,7 +4,7 @@ page 50106 "Staff List"
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = Staff;
-    Caption = 'Staff List', comment = 'ESP="Lista Personal"';
+    Caption = 'Staff', comment = 'ESP="Personal"';
 
     layout
     {
@@ -12,32 +12,51 @@ page 50106 "Staff List"
         {
             repeater(GroupName)
             {
-                field("Staff code"; Rec."Staff code")
+                field("Staff Code"; Rec."Staff code")
                 {
-                    Caption = 'Staff code', comment = 'ESP="Código Personal"';
                     ApplicationArea = all;
+                    Caption = 'Staff Code', comment = 'ESP="Código Personal"';
                 }
                 field(Name; Rec.Name)
                 {
-                    Caption = 'Name', comment = 'ESP="Nombre"';
                     ApplicationArea = all;
+                    Caption = 'Name', comment = 'ESP="Nombre"';
                 }
                 field(Post; Rec.Post)
                 {
-                    Caption = 'Post', comment = 'ESP="Cargo"';
                     ApplicationArea = all;
+                    Caption = 'Post', comment = 'ESP="Puesto"';
                 }
                 field(Salary; Rec.Salary)
                 {
-                    Caption = 'Salary', comment = 'ESP="Sueldo"';
                     ApplicationArea = all;
+                    Caption = 'Salary', comment = 'ESP="Salario"';
                 }
-                field("Professor code"; Rec."Professor code")
+                field("Professor Code"; Rec."Professor code")
                 {
-                    Caption = 'Professor Code', comment = 'ESP="Código Profesor"';
-                    ApplicationArea = all;
+                    ApplicationArea = All;
+                    Caption = 'Teacher Code', comment = 'ESP="Código Profesor"';
                 }
+            }
+        }
+        area(Factboxes)
+        {
+
+        }
+    }
+
+    actions
+    {
+        area(Processing)
+        {
+            action(ActionName)
+            {
+                trigger OnAction()
+                begin
+
+                end;
             }
         }
     }
 }
+
