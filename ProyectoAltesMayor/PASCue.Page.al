@@ -9,7 +9,7 @@ page 50122 "PAS Cue"
     {
         area(Content)
         {
-            group(" ")
+            repeater(" ")
             {
                 field("Staff code"; Rec."Staff code")
                 {

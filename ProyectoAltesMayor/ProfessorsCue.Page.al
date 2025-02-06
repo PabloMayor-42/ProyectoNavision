@@ -9,7 +9,7 @@ page 50121 "Professors Cue"
     {
         area(Content)
         {
-            group(" ")
+            repeater(" ")
             {
                 field("Professor Code"; Rec."Professor Code")
                 {

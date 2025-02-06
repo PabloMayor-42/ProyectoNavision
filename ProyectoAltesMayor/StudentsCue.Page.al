@@ -10,7 +10,7 @@ page 50120 "Students Cue"
     {
         area(Content)
         {
-            group(" ")
+            repeater(" ")
             {
                 field("Student Code"; Rec."Student Code")
                 {
