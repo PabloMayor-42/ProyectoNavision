@@ -47,7 +47,6 @@ page 50107 "Enrolment Form"
                     Caption = 'Enrolment hour', comment = 'ESP="Hora matric."';
                 }
 
-
             }
 
         }
@@ -160,7 +159,7 @@ page 50107 "Enrolment Form"
 
                     trigger OnAction()
                     begin
-
+                        Message('Not programmed yet');
                     end;
 
                 }
