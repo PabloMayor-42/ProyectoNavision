@@ -3,14 +3,14 @@ page 50127 "Profesor Look Up"
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "Profesor Table";
+    SourceTable = Senate;
     layout
     {
         area(Content)
         {
             repeater(GroupName)
             {
-                field("Profesor Code"; Rec."Profesor Code")
+                field("Professor Code"; Rec."Professor Code")
                 {
                     ApplicationArea = all;
                 }
@@ -18,7 +18,7 @@ page 50127 "Profesor Look Up"
                 {
                     ApplicationArea = all;
                 }
-                field(Department; Rec.Department)
+                field("Dept. code"; Rec."Dept. code")
                 {
                     ApplicationArea = all;
                 }

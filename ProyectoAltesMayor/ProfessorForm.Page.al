@@ -3,7 +3,7 @@ page 50123 "Profesor Form"
     PageType = Card;
     ApplicationArea = all;
     UsageCategory = Administration;
-    SourceTable = Enrolment;
+    SourceTable = Senate;
     PromotedActionCategories = 'Acciones';
     Caption = 'Profesor Form', comment = 'ESP="Ficha Profesor"';
 
@@ -14,39 +14,31 @@ page 50123 "Profesor Form"
             group(General)
             {
 
-                field("Course code"; Rec."Course Code")
+                field("Professor code"; Rec."Professor Code")
                 {
                     Importance = Promoted;
                     ApplicationArea = all;
-                    Caption = 'Course code', comment = 'ESP="Código curso"';
+                    Caption = 'Professor code', comment = 'ESP="Código profesor"';
                 }
-                field("Section"; Rec."Section")
+                field("Name"; Rec.Name)
                 {
                     Importance = Promoted;
                     ApplicationArea = all;
                     Caption = 'Section', comment = 'ESP="Sección"';
                 }
-                field("Student code"; Rec."Student Code")
+                field("Adress"; Rec.Adress)
                 {
                     Importance = Promoted;
                     ApplicationArea = all;
                     Caption = 'Student code', comment = 'ESP="Código estudiante"';
                 }
 
-                field("Enrolment date"; Rec."Enrolment Date")
+                field("Dept. code"; Rec."Dept. code")
                 {
                     Importance = Promoted;
                     ApplicationArea = all;
                     Caption = 'Enrolment date', comment = 'ESP="Fecha matric."';
                 }
-
-                field("Enrolment hour"; Rec."Enrolment hour")
-                {
-                    Importance = Promoted;
-                    ApplicationArea = all;
-                    Caption = 'Enrolment hour', comment = 'ESP="Hora matric."';
-                }
-
 
             }
 
@@ -57,7 +49,7 @@ page 50123 "Profesor Form"
                 part(StudentsList; "Students Subpage")
                 {
                     ApplicationArea = All;
-                    SubPageLink = "Student Code" = field("Student Code");
+                    SubPageLink = "Mentor code" = field("Professor Code");
                 }
             }
 
