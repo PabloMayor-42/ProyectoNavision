@@ -1,8 +1,6 @@
 page 50111 "Enrolment List Look Up"
 {
     PageType = List;
-    ApplicationArea = All;
-    UsageCategory = Lists;
     SourceTable = Enrolment;
     Caption = 'Enrolment List Look Up', comment = 'ESP="Lista Matrículas LU"';
     CardPageId = "Enrolment Form";

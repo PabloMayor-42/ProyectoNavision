@@ -1,8 +1,6 @@
 page 50116 "Department Form"
 {
     PageType = Card;
-    ApplicationArea = all;
-    UsageCategory = Administration;
     SourceTable = Departments;
     PromotedActionCategories = 'Navegar';
     Caption = 'Department Form', comment = 'ESP="Ficha departamento"';

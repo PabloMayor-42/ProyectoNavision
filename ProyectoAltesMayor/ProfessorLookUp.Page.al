@@ -1,9 +1,8 @@
 page 50127 "Profesor Look Up"
 {
     PageType = List;
-    ApplicationArea = All;
-    UsageCategory = Lists;
     SourceTable = Senate;
+
     layout
     {
         area(Content)

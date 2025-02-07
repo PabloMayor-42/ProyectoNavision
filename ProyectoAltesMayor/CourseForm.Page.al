@@ -1,8 +1,6 @@
 page 50112 "Course Form"
 {
     PageType = Card;
-    ApplicationArea = all;
-    UsageCategory = Administration;
     SourceTable = Course;
     Caption = 'Course Form', comment = 'ESP="Ficha curso"';
 
@@ -63,6 +61,15 @@ page 50112 "Course Form"
             part(" "; "Classes Factbox")
             {
                 ApplicationArea = all;
+                SubPageLink = "Course code" = field("Course code");
+            }
+            systempart(Control278243; MyNotes)
+            {
+
+            }
+            systempart(Control27834; Notes)
+            {
+
             }
         }
     }

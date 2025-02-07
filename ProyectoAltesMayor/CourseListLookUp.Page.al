@@ -1,8 +1,6 @@
 page 50108 "Course List Look Up"
 {
     PageType = List;
-    ApplicationArea = All;
-    UsageCategory = Lists;
     SourceTable = Course;
     Caption = 'Course List Look Up', comment = 'ESP="Lista Cursos LU"';
 

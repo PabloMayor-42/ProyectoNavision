@@ -33,6 +33,12 @@ table 50107 Enrolment
         {
             NotBlank = true;
         }
+        field(8; "Nº enrolments"; Integer)
+        {
+            MinValue = 0;
+            FieldClass = FlowField;
+            CalcFormula = count(Enrolment where("Course code" = field("Course Code")));
+        }
 
     }
 

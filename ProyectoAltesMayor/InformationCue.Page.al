@@ -1,8 +1,6 @@
 page 50118 "Information Cue"
 {
     PageType = ListPart;
-    ApplicationArea = All;
-    UsageCategory = Administration;
     SourceTable = "Information Cue Table";
 
     layout

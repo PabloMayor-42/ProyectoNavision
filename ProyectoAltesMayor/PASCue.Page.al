@@ -1,8 +1,6 @@
 page 50122 "PAS Cue"
 {
     PageType = ListPart;
-    ApplicationArea = All;
-    UsageCategory = Administration;
     SourceTable = Staff;
 
     layout

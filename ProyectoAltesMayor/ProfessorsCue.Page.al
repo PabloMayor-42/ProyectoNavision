@@ -1,8 +1,6 @@
 page 50121 "Professors Cue"
 {
     PageType = ListPart;
-    ApplicationArea = All;
-    UsageCategory = Administration;
     SourceTable = Senate;
 
     layout

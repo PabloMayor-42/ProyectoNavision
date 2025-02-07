@@ -6,6 +6,7 @@ page 50100 "Students List"
     UsageCategory = Lists;
     SourceTable = Students;
     Caption = 'Students List', comment = 'ESP="Lista Estudiantes"';
+    CardPageId = "Student Form";
 
     layout
     {

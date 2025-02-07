@@ -1,8 +1,6 @@
 page 50107 "Enrolment Form"
 {
     PageType = Card;
-    ApplicationArea = all;
-    UsageCategory = Administration;
     SourceTable = Enrolment;
     PromotedActionCategories = 'Navegar';
     Caption = 'Enrolment Form', comment = 'ESP="Ficha matrícula"';
@@ -54,12 +52,6 @@ page 50107 "Enrolment Form"
 
         area(factboxes)
         {
-
-            part(Holita; "Internal Put-away Subform")
-            {
-
-            }
-
             systempart(Control54353534; Outlook)
             {
                 ApplicationArea = all;

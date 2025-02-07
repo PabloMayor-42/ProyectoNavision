@@ -108,6 +108,11 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table Enrolment - Field Enrolment hour - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 849663268 - Field 3637845337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nº enrolments</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Enrolment - Field Nº enrolments - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 849663268 - Field 2937872379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Section</source>
           <note from="Developer" annotates="general" priority="2"/>
@@ -566,6 +571,18 @@
           <note from="Developer" annotates="general" priority="2">ESP="Despacho"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Departments List - Control Office - Property Caption</note>
           <target>Despacho</target>
+        </trans-unit>
+        <trans-unit id="Page 1273361919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enrolment Fact Box</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Matriculas"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Fact Box - Property Caption</note>
+          <target>Matriculas</target>
+        </trans-unit>
+        <trans-unit id="Page 1273361919 - Control 3637845337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nº enrolments</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nº de matriculas:"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Enrolment Fact Box - Control Nº enrolments - Property Caption</note>
+          <target>Nº de matriculas:</target>
         </trans-unit>
         <trans-unit id="Page 1102485626 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>Navegar</source>

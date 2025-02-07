@@ -2,6 +2,7 @@ table 50101 Departments
 {
     DataClassification = ToBeClassified;
     LookupPageId = "Department List Look Up";
+    DrillDownPageId = "Department List Look Up";
 
     fields
     {

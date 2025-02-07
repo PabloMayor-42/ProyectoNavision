@@ -2,8 +2,6 @@
 page 50110 "Students List Look Up"
 {
     PageType = List;
-    ApplicationArea = All;
-    UsageCategory = Lists;
     SourceTable = Students;
     Caption = 'Students List Look Up', comment = 'ESP="Lista Estudiantes LU"';
 

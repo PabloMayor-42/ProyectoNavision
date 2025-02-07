@@ -1,8 +1,6 @@
 page 50115 "Department List Look Up"
 {
     PageType = ListPart;
-    ApplicationArea = All;
-    UsageCategory = Lists;
     SourceTable = Departments;
     Caption = 'Department List Look Up', comment = 'ESP="Lista Departamentos LU"';
 

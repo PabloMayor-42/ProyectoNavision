@@ -1,8 +1,6 @@
 page 50123 "Profesor Form"
 {
     PageType = Card;
-    ApplicationArea = all;
-    UsageCategory = Administration;
     SourceTable = Senate;
     PromotedActionCategories = 'Acciones';
     Caption = 'Profesor Form', comment = 'ESP="Ficha Profesor"';
@@ -51,6 +49,14 @@ page 50123 "Profesor Form"
                     ApplicationArea = All;
                     SubPageLink = "Mentor code" = field("Professor Code");
                 }
+                systempart(Coifbe; MyNotes)
+                {
+
+                }
+                systempart(eihfe; Outlook)
+                {
+
+                }
             }
 
         }
@@ -60,6 +66,7 @@ page 50123 "Profesor Form"
             {
                 Caption = 'Statistics', comment = 'ESP="Estadísticas"';
                 ApplicationArea = all;
+                SubPageLink = "Professor Code" = field("Professor Code");
             }
         }
     }

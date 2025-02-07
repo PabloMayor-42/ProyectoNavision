@@ -40,10 +40,6 @@ page 50104 "Enrolment List"
                 }
             }
         }
-        area(Factboxes)
-        {
-
-        }
     }
 
     actions

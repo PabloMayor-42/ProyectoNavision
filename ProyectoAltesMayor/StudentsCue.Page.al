@@ -1,8 +1,6 @@
 page 50120 "Students Cue"
 {
     PageType = ListPart;
-    ApplicationArea = All;
-    UsageCategory = Administration;
     SourceTable = Students;
     Caption = 'Students Cue', comment = 'ESP="Alumnos"';
 

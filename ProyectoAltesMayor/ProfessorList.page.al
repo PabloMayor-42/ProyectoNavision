@@ -1,15 +1,17 @@
 page 50124 "Profesor List"
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Senate";
     Caption = 'Profesor List', comment = 'ESP="Lista Profesor"';
+    CardPageId = "Profesor Form";
+
     layout
     {
         area(Content)
         {
-            group(General)
+            repeater(General)
             {
                 field("Profesor Code: "; Rec."Professor Code")
                 {
@@ -33,11 +35,7 @@ page 50124 "Profesor List"
                     Caption = 'Department', comment = 'ESP="Departamento"';
                     ApplicationArea = all;
                 }
-            }
-
-            group("Grupos Alumnos Tutoria")
-            {
-                field("Alyum"; Rec."Adress")
+                field("Adress"; Rec."Adress")
                 {
                     ApplicationArea = all;
                 }

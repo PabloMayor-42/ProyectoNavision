@@ -5,6 +5,7 @@ page 50105 "Departments List"
     UsageCategory = Lists;
     SourceTable = Departments;
     Caption = 'Departments List', comment = 'ESP="Lista Departamentos"';
+    CardPageId = "Department Form";
 
     layout
     {

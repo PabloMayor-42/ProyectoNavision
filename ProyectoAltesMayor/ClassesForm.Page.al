@@ -1,8 +1,6 @@
 page 50113 "Class Form"
 {
     PageType = Card;
-    ApplicationArea = All;
-    UsageCategory = Administration;
     SourceTable = Classes;
     Caption = 'Class Form', comment = 'ESP="Ficha Clases"';
 
@@ -57,6 +55,22 @@ page 50113 "Class Form"
                     ApplicationArea = all;
                     Caption = 'Teacher', comment = 'ESP="Profesor"';
                 }
+            }
+        }
+        area(factboxes)
+        {
+            part("Estadisticas"; "Enrolment Fact Box")
+            {
+                ApplicationArea = all;
+                SubPageLink = "Course Code" = field("Course code");
+            }
+            systempart(Control278243; MyNotes)
+            {
+                ApplicationArea = all;
+            }
+            systempart(Control27834; Outlook)
+            {
+                ApplicationArea = all;
             }
         }
     }

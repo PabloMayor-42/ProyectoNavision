@@ -5,6 +5,7 @@ page 50102 "Senate List"
     UsageCategory = Lists;
     SourceTable = Senate;
     Caption = 'Senate List', comment = 'ESP="Lista Claustro"';
+    CardPageId = "Senate List";
 
     layout
     {

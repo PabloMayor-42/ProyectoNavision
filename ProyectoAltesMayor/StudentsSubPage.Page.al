@@ -33,6 +33,7 @@ page 50126 "Students Subpage"
                 RunObject = Page "Students List";
                 Image = NewCustomer;
                 RunPageLink = "Student Code" = field("Student Code");
+                RunPageMode = View;
             }
             action("Data")
             {
@@ -41,6 +42,7 @@ page 50126 "Students Subpage"
                 RunObject = Page "Student Form";
                 Image = NewCustomer;
                 RunPageLink = "Student Code" = field("Student Code");
+                RunPageMode = View;
             }
         }
     }

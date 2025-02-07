@@ -1,8 +1,6 @@
 page 50114 "Student Form"
 {
     PageType = Card;
-    ApplicationArea = All;
-    UsageCategory = Administration;
     SourceTable = Students;
     PromotedActionCategories = 'Acciones,Navegar';
     Caption = 'Student Form', comment = 'ESP="Ficha Estudiante"';
@@ -62,6 +60,18 @@ page 50114 "Student Form"
                 }
             }
         }
+
+        area(FactBoxes)
+        {
+            systempart(contr0l; MyNotes)
+            {
+
+            }
+            systempart(jhdebfjuae; Outlook)
+            {
+
+            }
+        }
     }
 
     actions
@@ -70,8 +80,8 @@ page 50114 "Student Form"
         {
             action("New Enrolment")
             {
-                ApplicationArea = all;
                 Caption = 'New Enrolment', comment = 'Nueva Matrícula';
+                ApplicationArea = all;
                 Promoted = true;
                 Image = CalculateSalesTax;
                 RunObject = page "Enrolment Form";
@@ -87,8 +97,8 @@ page 50114 "Student Form"
         {
             action(Enrolment)
             {
-                ApplicationArea = all;
                 Caption = 'Enrolment', comment = 'Matriculas';
+                ApplicationArea = all;
                 Promoted = true;
                 Image = CalendarMachine;
                 RunObject = page "Enrolment List";

@@ -2,6 +2,7 @@ table 50105 Senate
 {
     DataClassification = ToBeClassified;
     LookupPageId = "Profesor Look Up";
+
     fields
     {
         field(1; "Professor Code"; Code[2])
