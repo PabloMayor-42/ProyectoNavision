@@ -135,7 +135,8 @@ page 50107 "Enrolment Form"
                     PromotedOnly = true;
                     Image = ChangeDate;
                     RunObject = page "Enrolment List Look Up";
-                    RunPageLink = "Course Code" = field("Course Code");
+                    //Cambiado
+                    RunPageLink = "Student Code" = field("Student Code");
                     RunPageMode = View;
 
                     trigger OnAction()
