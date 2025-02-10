@@ -68,6 +68,14 @@ page 50123 "Profesor Form"
                 ApplicationArea = all;
                 SubPageLink = "Professor Code" = field("Professor Code");
             }
+            systempart(Control278243; MyNotes)
+            {
+                ApplicationArea = all;
+            }
+            systempart(Control27834; Notes)
+            {
+                ApplicationArea = all;
+            }
         }
     }
 

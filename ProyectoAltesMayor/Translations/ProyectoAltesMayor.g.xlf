@@ -939,13 +939,13 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Student Form - Control Mentor - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3677606425 - Action 849663268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enrolment</source>
-          <note from="Developer" annotates="general" priority="2">Matriculas</note>
+          <source>Matriculas</source>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student Form - Action Enrolment - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3677606425 - Action 1569304272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New Enrolment</source>
-          <note from="Developer" annotates="general" priority="2">Nueva Matrícula</note>
+          <source>Nueva Matrícula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Student Form - Action New Enrolment - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 758961539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">

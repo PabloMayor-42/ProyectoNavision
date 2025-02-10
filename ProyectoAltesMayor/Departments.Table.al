@@ -2,7 +2,6 @@ table 50101 Departments
 {
     DataClassification = ToBeClassified;
     LookupPageId = "Department List Look Up";
-    DrillDownPageId = "Department List Look Up";
 
     fields
     {
@@ -31,9 +30,9 @@ table 50101 Departments
         }
         field(5; "Average Lab Price"; Decimal)
         {
-            FieldClass = FlowField;
             Editable = false;
             CalcFormula = average(Course.Rate where("Dept. code" = field("Dept. code")));
+            FieldClass = FlowField;
         }
     }
 

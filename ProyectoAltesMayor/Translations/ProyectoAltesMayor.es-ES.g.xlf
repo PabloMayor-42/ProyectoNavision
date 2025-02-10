@@ -1055,6 +1055,16 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Student Form - Control Mentor - Property Caption</note>
           <target>Tutor</target>
         </trans-unit>
+        <trans-unit id="Page 3677606425 - Action 849663268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matriculas</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student Form - Action Enrolment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3677606425 - Action 1569304272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nueva Matrícula</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Student Form - Action New Enrolment - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 758961539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Students Cue</source>
           <note from="Developer" annotates="general" priority="2">ESP="Alumnos"</note>

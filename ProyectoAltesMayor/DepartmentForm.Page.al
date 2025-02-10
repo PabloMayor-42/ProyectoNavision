@@ -31,6 +31,14 @@ page 50116 "Department Form"
                 {
                     Caption = 'Average Lab Price', comment = 'ESP="Promedio tarifa lab:"';
                     ApplicationArea = all;
+                    Lookup = true;
+
+                    trigger OnDrillDown()
+                    var
+                        CoursesListPage: Page "Course List Look Up";
+                    begin
+                        CoursesListPage.Run();
+                    end;
                 }
             }
 
@@ -39,7 +47,14 @@ page 50116 "Department Form"
 
         area(factboxes)
         {
-
+            systempart(Control278243; MyNotes)
+            {
+                ApplicationArea = all;
+            }
+            systempart(Control27834; Notes)
+            {
+                ApplicationArea = all;
+            }
         }
     }
 

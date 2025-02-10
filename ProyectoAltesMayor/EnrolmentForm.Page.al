@@ -52,7 +52,11 @@ page 50107 "Enrolment Form"
 
         area(factboxes)
         {
-            systempart(Control54353534; Outlook)
+            systempart(Control278243; MyNotes)
+            {
+                ApplicationArea = all;
+            }
+            systempart(Control27834; Notes)
             {
                 ApplicationArea = all;
             }

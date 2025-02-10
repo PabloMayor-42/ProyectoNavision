@@ -65,11 +65,11 @@ page 50112 "Course Form"
             }
             systempart(Control278243; MyNotes)
             {
-
+                ApplicationArea = all;
             }
             systempart(Control27834; Notes)
             {
-
+                ApplicationArea = all;
             }
         }
     }

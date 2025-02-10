@@ -10,7 +10,7 @@ page 50125 "Statistics Fact Box"
     {
         area(Content)
         {
-            group(" ")
+            repeater(" ")
             {
                 field("Nº helpers"; Rec."Assistant Number")
                 {

@@ -63,13 +63,13 @@ page 50114 "Student Form"
 
         area(FactBoxes)
         {
-            systempart(contr0l; MyNotes)
+            systempart(Control278243; MyNotes)
             {
-
+                ApplicationArea = all;
             }
-            systempart(jhdebfjuae; Outlook)
+            systempart(Control27834; Notes)
             {
-
+                ApplicationArea = all;
             }
         }
     }
@@ -80,7 +80,7 @@ page 50114 "Student Form"
         {
             action("New Enrolment")
             {
-                Caption = 'New Enrolment', comment = 'Nueva Matrícula';
+                Caption = 'Nueva Matrícula';
                 ApplicationArea = all;
                 Promoted = true;
                 Image = CalculateSalesTax;
@@ -97,7 +97,7 @@ page 50114 "Student Form"
         {
             action(Enrolment)
             {
-                Caption = 'Enrolment', comment = 'Matriculas';
+                Caption = 'Matriculas';
                 ApplicationArea = all;
                 Promoted = true;
                 Image = CalendarMachine;

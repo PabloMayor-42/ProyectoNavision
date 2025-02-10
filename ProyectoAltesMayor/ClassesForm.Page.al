@@ -68,7 +68,7 @@ page 50113 "Class Form"
             {
                 ApplicationArea = all;
             }
-            systempart(Control27834; Outlook)
+            systempart(Control27834; Notes)
             {
                 ApplicationArea = all;
             }

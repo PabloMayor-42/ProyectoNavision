@@ -10,7 +10,7 @@ page 50119 "Classes Factbox"
     {
         area(Content)
         {
-            group("Clases asociadas")
+            repeater("Clases asociadas")
             {
                 field(Day; Rec.Day)
                 {
@@ -29,7 +29,4 @@ page 50119 "Classes Factbox"
     }
 
 
-
-    var
-        myInt: Integer;
 }
